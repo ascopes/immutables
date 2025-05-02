@@ -28,6 +28,7 @@ import org.immutables.value.Value.Style;
  * use {@code org.immutables:annotate} module to inject annotations at various places in generated code.
  * Can be disabled by {@link Style#allowedClasspathAnnotations()}.
  */
+@Documented
 @Target(ElementType.TYPE)
 public @interface Generated {
   /**
